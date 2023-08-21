@@ -1,9 +1,9 @@
-const myDate = () => {
+exports.myDate = () => {
   return new Date();
 };
 
-const myTime = () => {
+exports.myTime = () => {
   return new Date().getTime();
 };
 
-module.exports = { myDate, myTime };
+//module.exports = { myDate, myTime };
